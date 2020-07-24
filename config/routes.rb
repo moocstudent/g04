@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   # standard REST resource
   resources :articles
   # change the web domain page to hello#hello use the keyword root
-  root 'hello#hello'
+  # root 'hello#hello'
+  root 'articles#index'
 end
